@@ -1,83 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Martin's Portfolio Project</title>
 
-    <style>
-      body {
-        margin: 0;
-        background-color: lavender;
-      }
-      h1 {
-        color: black;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Martin's Portfolio Project</title>
+  <link href="StyleSheet.css" rel="stylesheet">
+  
+</head>
 
-      p {
-        color: slategray;
-        text-align: center;
-      }
+<body>
+  <div class="header">
+    <h1>Welcome to my Portfolio Project</h1>
+  </div>
+  <!-- <div class="box"></div> --> 
+  <p class="paragraph1">
+    Hi, my name is Martin and I'm creating a new portfolio every month for the
+    forseeable future.
+  </p>
+  <br />
+  <p>
+    My goal is to start a new portfolio page every month, to see my progress
+    and to show off my skills.
+  </p>
+  <br />
+  <p>
+    Not only do I want to learn how to style a website, I also want to create
+    a timeline to show my progress.
+  </p>
+  <br />
+  <p>
+    Browse through some of my portfolio pages by clicking on the links below.
+  </p>
+  <a href="Oct22.html">October 2022</a>
+  <br />
+  <a href="Nov22.html">November 2022</a>
+  <br />
+  <a href="Dec22.html">December 2022</a>
+  <br />
+  <a href="Jan23.html">January 2023</a>
+  <br /> 
 
-      .header {
-        background-color: lavender;
-        padding: 20px;
-        text-align: center;
-      }
-      .paragraph1 {
-        color: pink;
-        text-align: center;
-      }
-      .box {
-        width: 300px;
-        border: 15px solid slategray;
-        padding: 100px;
-        margin-top: -120px;
-        margin-left: 450px;
-      }
-    </style>
-  </head>
+  
+
+  <br />
+  <p>
+    Want to get in touch? Follow the link below to check out my LinkedIn page.
+  </p>
+  <a href="https://www.linkedin.com/in/mamf92/" target="_blank">LinkedIn</a>
+  <br />
   <body>
-    <div class="header">
-      <h1>Welcome to my Portfolio Project</h1>
+    <div class="button-container-div">
+      <button onclick="topFunction()" id="myBtn" title="Go to Top">Go to Top</button>
     </div>
-    <div class="box"></div>
-    <p class="paragraph1">
-      Hi, my name is Martin and I'm creating a new portfolio every month for the
-      forseeable future.
-    </p>
-    <br />
-    <p>
-      My goal is to start a new portfolio page every month, to see my progress
-      and to show off my skills.
-    </p>
-    <br />
-    <p>
-      Not only do I want to learn how to style a website, I also want to create
-      a timeline to show my progress.
-    </p>
-    <br />
-    <p>
-      Browse through some of my previous portfolio pages by clicking on the
-      links below.
-    </p>
-    <a href="Oct22.html">October 2022</a>
-    <br />
-    <button>Click here</button>
-    <br />
-    <p>
-      Want to get in touch? Follow the link below to check out my LinkedIn page.
-    </p>
-    <a href="https://www.linkedin.com/in/mamf92/" target="_blank">LinkedIn</a>
-    <br />
-    <img
-      src="https://www.w3schools.com/images/lamp.jpg"
-      alt="Lamp"
-      width="32"
-      height="32"
-    />
-    <br />
-    <br />
+    <script>
+      let mybutton = document.getElementById("myBtn")
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
+  <br />
+  <img src="https://files.worldwildlife.org/wwfcmsprod/images/Sea_Turtle_Hol_Chan_Marine_Reserve_WW1105958/hero_full/p35wuxwr3_Sea_Turtle_Hol_Chan_Marine_Reserve_WW1105958.jpg" alt="turtle" />
+  <br />
+  <br />
+</body>
+
 </html>
