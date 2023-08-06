@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CatsVSDogsp</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="/Images/favicon.png" rel="icon" type="image/x-icon">
+
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <h1>Cats vs Dogs</h1>
+        </div>
+        <div class="image-container">
+        <img src="/Images/istockphoto-1191962502-612x612.jpg" alt="Cute kitten and puppy">
+        </div>
+        <section>
+            <div class="header2">
+                <h2> Are cats better than dogs?</h2>
+            </div>
+            <p class="paragraph1"> This question has sparked debates around the dinner table, in classrooms, and at
+                work, and, in some cases, it has even led to broken friendships and relationships. In the following few
+                questions, you will contribute to settling the debate of who is the better animal: cats or dogs. But
+                before that, and for the sake of research, please answer some questions about yourself and your
+                relationship with animals. </p>
+            <div class="header2">
+            <h2> About you</h2>
+            <p> Here are some questions about you and your current and previous relationship to animals.</p>
+            </div>
+            <fieldset>
+                <legend> Have you ever lived with cats and/or dogs? </legend>
+                <label><input checked id="cats" name="pastcatsdogsboth" value="cats" type="radio"> Cats</label>
+                <label><input id="dogs" name="pastcatsdogsboth" value="dogs" type="radio"> Dogs</label>
+                <label><input id="both" name="pastcatsdogsboth" value="both" type="radio"> Both</label>
+                <label><input id="neither" name="pastcatsdogsboth" value="neither" type="radio"> Neither</label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Do you live with cats and/or dogs now? </legend>
+                <label><input checked id="cats" name="presentcatsdogsboth" value="cats" type="radio"> Cats</label>
+                <label><input id="dogs" name="presentcatsdogsboth" value="dogs" type="radio"> Dogs</label>
+                <label><input id="both" name="presentcatsdogsboth" value="both" type="radio"> Both</label>
+                <label><input id="neither" name="presentcatsdogsboth" value="neither" type="radio"> Neither</label>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend> Which animal is better? Cats or dogs.</legend>
+                <label><input checked id="cats" name="catsvsdogs" value="cats" type="radio"> Cats</label>
+                <label><input id="dogs" name="catsvsdogs" value="dogs" type="radio"> Dogs</label>
+            </fieldset>
+
+            <form action="formsub.html">
+                <fieldset>
+                    <legend> Write your name and submitt your answers. </legend>
+                    <input required type="text" name="Name" placeholder="Name">
+                    <button type="submit">Submit your answer</button>>
+                </fieldset>
+
+        </section>
+        <footer>
+<p> Added some CSS, but still have a lot to learn! </p>
+        </footer>
