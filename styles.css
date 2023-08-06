@@ -28,7 +28,7 @@ body {
     max-width: 1000px; /* Set the maximum width of the image container */
 }
 .image-container2 img {
-    width: 100%; /* This will make the image take the full width of its container */
+    width: 100%; /* This will make the image ake the full width of its container */
     height: auto; /* This keeps the aspect ratio of the image intact */
 }
 
