@@ -71,9 +71,13 @@ p {
     text-align: center;
 }
 
-a {
+.a {
     text-align: center;
     display: block;
+    color: rgb(71, 59, 68);
+}
+
+a {
     color: rgb(71, 59, 68);
 }
 
