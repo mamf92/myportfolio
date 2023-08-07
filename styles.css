@@ -74,6 +74,20 @@ p {
 a {
     text-align: center;
     display: block;
+    color: rgb(71, 59, 68);
+}
+
+a:visited {
+color: rgb(135, 130, 130);
+}
+
+a:hover {
+   color: rgb(81, 164, 203);
+
+}
+
+a:active {
+    color: white;
 }
 
 .button-container-div {
