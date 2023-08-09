@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="surveyform.css">
+    <meta charset="UTF-8">
+    <title>Survey about physical education.</title>
+</head>
+
+<body>
+    <h1 id="title">Survey about physical education</h1>
+    <p id="description">Please fill out this survey about physical education</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name-input">Name <input id="name" name="name-input" type="text" required
+                    placeholder="Enter your name" /></label>
+            <label id="email-label" for="email">Email <input id="email" name="email" type="email" required
+                    placeholder="Enter your email" /></label>
+            <label id="number-label" for="number">Age (optional) <input id="number" type="number" name="number" min="10"
+                    max="16" placeholder="Enter your age" /></label>
+            <label for="dropdown">What grade are you in?</label>
+                <select id="dropdown" name="dropdown">
+                    <option value="">(Select one)</option>
+                    <option value="1">8th grade</option>
+                    <option value="2">9th grade</option>
+                    <option value="3">10th grade</option>
+                </select>
+                <label for="select-gender"> What is your gender? </label>
+                <label for="male-gender"><input id="male-gender" value="1" type="radio" name="name" class="inline" /> Male</label>
+                <label for="female-gender"><input id="female-gender" value="2" type="radio" name="name" class="inline" />
+                    Female</label>
+                <label for="other-gender"><input id="other-gender" value="3" type="radio" name="name" class="inline" />
+                    Other</label>
+        </fieldset>
+        <fieldset>
+                <label for="description-pe">Choose the descriptions of PE you agree with </label>
+                    <label for="pe-fun"><input id="description-pe" type="checkbox" value="1" name="description-pe" class="inline"/> PE is fun</label>
+                    <label for="pe-energy"><input id="description-pe" type="checkbox" value="2" name="description-pe" class="inline" /> PE gives me energy</label>
+                    <label for="pe-interesting"><input id="description-pe" type="checkbox" value="3" name="description-pe" class="inline" /> PE is interesting</label>
+                    <label for="pe-boring"><input id="description-pe" type="checkbox" value="4" name="description-pe" class="inline" /> PE is boring</label>
+                    <label for="pe-uncomfortable"><input id="description-pe" type="checkbox" value="5" name="description-pe" class="inline" /> PE makes me feel uncomfortable</label>
+                    <label for="pe-sad"><input id="description-pe" type="checkbox" value="6" name="description-pe" class="inline" /> PE makes me sad</label>
+
+        </fieldset>
+        <fieldset>
+                <label for="comments">Do you have any comments or feedback?</label>
+                    <textarea id="comments" name="comments" rows="3" cols="40"></textarea>
+                
+        </fieldset>
+                <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
