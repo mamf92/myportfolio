@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.header {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about {
+    background-color: #ecf0f1;
+}
+
+.projects {
+    background-color: #bdc3c7;
+}
+
+.contact {
+    background-color: #ecf0f1;
+}
+
+.project-links, .previous-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-link, .work-link, .external-link, .contact-link {
+    color: #2980b9;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.project-link:hover, .work-link:hover, .external-link:hover, .contact-link:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+.image-container2 {
+    max-width: 75%;
+    margin: 20px auto;
+}
+
+.image-container2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
