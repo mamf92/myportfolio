@@ -40,19 +40,26 @@ body {
     background-color: #ecf0f1;
 }
 
-.project-links, .previous-work {
+.project-links,
+.previous-work {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.project-link, .work-link, .external-link, .contact-link {
+.project-link,
+.work-link,
+.external-link,
+.contact-link {
     color: #2980b9;
     text-decoration: none;
     margin: 10px 0;
 }
 
-.project-link:hover, .work-link:hover, .external-link:hover, .contact-link:hover {
+.project-link:hover,
+.work-link:hover,
+.external-link:hover,
+.contact-link:hover {
     color: #3498db;
     text-decoration: underline;
 }
