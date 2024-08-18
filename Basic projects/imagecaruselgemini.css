@@ -1,0 +1,36 @@
+.carousel-container {
+    width: 800px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+    position: relative; /* For positioning buttons */
+    overflow: hidden; /* Hide images outside the view */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%; /* Make images fill the container */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Vertical centering */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
